@@ -64,5 +64,38 @@
       "p12": "",
       "p13": ""
     }
+  },
+  {
+    "id": 3,
+    "slug": "post2",
+    "title": "Mi workflow ideal para prototipado UI",
+    "subtitle": "Svelte, Sass, CSS Grid, Git, VS Code",
+    "imagen": "img/vibra.svg",
+    "thumb": "img/vibra.svg",
+    "excerpt": "Un prototipo, por lo tanto, no es sólo una herramienta transitoria para algo que ha de venir en el futuro, sino que es ya de algún modo ese 'algo' latente que andamos buscando.",
+    "description": "Lgggggg",
+    "content": {
+      "h1": "Bajo un paradigma funcional sistémico y vivo",
+      "img1": "img/detalle1.jpg",
+      "img2": "img/grafico-4.svg",
+      "p": "Un prototipo, por lo tanto, no es sólo una herramienta transitoria para algo que ha de venir en el futuro, sino que es ya de algún modo ese 'algo' latente que andamos buscando (en potencia y en esencia) y tiene necesariamente que entenderse como un ser vivo, con unos códigos, una estructura, unos ciclos conectados con una red más grande y, a todas luces inteligente. Un vasto sistema ordenado, más que una herramienta 'que sirve para' es un instrumento que 'suena como' o que 'sabe a...' y, que por su naturaleza tiende a llegar a estratos mucho más profundos y sutiles, fundiéndose con aquello que pretende representar hasta el punto de que no podemos apenas advertir la diferencia.",
+      "blockquote": "<blockquote>Lo más importante en la vida es que lo más importante sea lo más importante</blockquote>",
+
+      "p2": "El cuerpo humano, sin ir más lejos, guarda proporciones numéricas 1:1.618... llevamos el número Phi incorporado! El crecimiento de la concha de un molusco sigue la serie Fibonacci y tantos ejemplos... sin embargo parece que hayamos perdido la capacidad de asombrarnos con estas cosas viviendo inmersos en un individualismo alienante y voraz bajo la batuta de nuestra pobre mente concreta.",
+
+      "p3": "El ser humano se ha especializado en construir objetos, básicamente eso es lo que hace, unos son físicos y otros digitales pero todos análogos, y además 'co-herentes' (o deberían serlo). Asi que si nuestro objeto procede de una unidad viviente e inteligente que tiende a dividirse y tiende a transitar siempre los mismos ciclos y fases estructurales, lo que hacemos en tanto que parte de 'eso', tiene necesariamente que ser entendido como algo 'vinculante', 'vivo' en constante crecimiento y evolución. Un cierto potencial se irá alcanzando progresivamente por medio de continuas actualizaciones. Mi forma de entender el prototipado se basa en este tipo de ideas pero sobretodo de experiencias personales en el ambito de lo artístico y, como no, en el mundo del diseño/desarrollo web",
+
+      "p4": "Ahora me voy a poner más técnico, voy a hablar de cómo estoy construyendo este prototipo web en el que estás y cómo desde mi punto de vista es un prototipo holístico.",
+
+      "p5": "<strong>Prototipando webs reales</strong> <br> Existen numerosos enfoques dentro del mundo del prototipado web y, en mi opinión, cuanto más cerca esté nuestro diseño del medio en el que se va a desenvolver más válido será. Si tomamos la naturaleza como la fábrica de prototipos que es veremos que derrocha economía de resursos. Un diente de león no especula sobre como serán las corrientes de viento ni el lugar óptimo donde dejará caer su semilla, no pierde el tiempo con eso, simplemente genera muchas semillas, no en un código de cartón-piedra sino en uno real, listo para ser lanzado, listo para funcionar, preparado para fallar y aprender rápido.",
+      "p6": "'Derroche' y 'economía' son dos conceptos paradógicos que a mi modo de entender van juntos. Si algo puede ser eliminado entonces tal vez merece poder ser eliminado. Creo sinceramente que el 99% de los problemas que nos encontramos a la hora de prototipar un proyecto ya sea web o de otro tipo no es precisamente por la falta de recursos sino por su exceso.",
+      "p7": "Con unas pocas lineas de Javascript puedes dotar la UI de tu proyecto de toda la interacción necesaria para explicar tu mensaje, no necesitas siempre instalar plugins de terceros, con unos pocos mixins puedes tener todo un grid funcional para tu prototipo y el ritmo vertical de todo tu proyecto cabe en un pequeño archivo sass. Esto hace mejorar notablemente la performance desde el minuto cero. Si prototipamos una web, a mi modo de ver, esa web tiene que estar viva, es decir, on-line. ¿Frameworks? si, porqué no, pero uno agnóstico y progresivo como Vue, que sea flexible, lo más agnóstico posible y con una curva de aprendizaje rápida.",
+      "p8": "Este sitio web está creado así. Es ligero pero facilmente escalable. El modelo de datos, la lógica y los contenidos están separados. Los textos y las fotos son consumidos como si se tratara de un Web Service o API REST, en realidad es un simple objeto Json en un directorio 'public' pero conceptualmente es lo mismo sólo que más simple. Hago deploys en github que tardan 10 segundos porque es un sitio estático y está en un repositorio. Para mi es importante testear y validar el diseño en un entorno real. Tiene carencias, si, pero es que es un prototipo. Esa es la palabra mágica. Tiene todo lo que tienen proyectos mucho más grandes pero sin consumir apenas recursos. Simplemente funciona.",
+      "p9": "",
+      "p10": "",
+      "p11": "",
+      "p12": "",
+      "p13": ""
+    }
   }
 ]
