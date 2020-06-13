@@ -1,0 +1,199 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "slug": "product0",
+      "excerpt": "xxx",
+      "title": "Vesica Holística ",
+      "thumb": "img/th-img11.jpg",
+      "imagen": "img/img11.jpg",
+      "description": "Arena negra y latex. 100cm ø 2019",
+      "content": 
+        {
+          "h1":"El viento colocó la arena",
+          "img1":"/img/detalle2.jpg",
+          "p":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsa doloribus in provident placeat dolore!"
+        }
+    },
+    {
+      "id": 1,
+      "slug": "product1",
+      "excerpt": "xxx",
+      "title": "Sand's frecuency prototype",
+      "description": "3D Print + beach sand",
+      "imagen": "img/img12.jpg",
+      "thumb": "img/th-img12.jpg",
+      "content": 
+        {
+          "h1":"Ondas de arena",
+          "img1":"/img/detalle1.jpg",
+          "p":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsa doloribus in provident placeat dolore!"
+        }
+    },
+    {
+      "id": 2,
+      "slug": "product2",
+      "title": "Pentágono de energía caleidoscópica",
+      "excerpt": "prototipado-holistico",
+      "thumb": "img/th-img6.jpg",
+      "imagen": "img/img6.jpg",
+      "description": "Resin, gesso, sand. 2020",
+      "content": 
+        {
+          "h1":"El cuadro es sensible a la luz que le viene de fuera",
+          "img1":"/img/detalle1.jpg",
+          "p":"La raíz profunda de la Creación es el orden y sentirlo nos reconecta dando forma a la conexión de todo cuanto existe."
+        }
+    },
+    {
+      "id": 3,
+      "slug": "product3",
+      "title": "Pentágono",
+      "excerpt": "xxx",
+      "thumb": "img/th-img2.jpg",
+      "imagen": "img/img2.jpg",
+      "description": "3D Print. 2020",
+      "content": 
+        {
+          "h1":"Ondas de arena",
+          "img1":"/img/detalle1.jpg",
+          "p":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsa doloribus in provident placeat dolore!"
+        }
+    },
+    {
+      "id": 4,
+      "slug": "product4",
+      "title": "Carta de ajuste",
+      "excerpt": "xxx",
+      "thumb": "img/th-img4.jpg",
+      "imagen": "img/img4.jpg",
+      "description": "3D Print. 2020",
+      "content": 
+        {
+          "h1":"Dividiendo la totalidad del círculo en partes",
+          "img1":"/img/detalle1.jpg",
+          "p":"Ésta es una línea secundaria de exploración que podría considerarse como más purista en el sentido formal."
+        }
+    },
+    {
+      "id": 5,
+      "slug": "product5",
+      "title": "La línea negra del horizonte",
+      "excerpt": "xxx",
+      "thumb": "img/th-img19.jpg",
+      "imagen": "img/img19.jpg",
+      "description": "Arena, óleos y nogalina. 100cm ø. 2019",
+      "content": 
+        {
+          "h1":"La autenticidad salvaje de no saber",
+          "img1":"/img/detalle1.jpg",
+          "p":"Pura intuición inconsciente. Un dejarse llevar por el no saber descubriendo que el transfondo de las cosas cumple su función."
+        }
+    },
+    {
+      "id": 6,
+      "slug": "product6",
+      "title": "Frecuencia",
+      "excerpt": "xxx",
+      "thumb": "img/th-img10.jpg",
+      "imagen": "img/img10.jpg",
+      "description": "100cm ø 2019",
+      "content": 
+        {
+          "h1":"La autenticidad salvaje de no saber",
+          "img1":"/img/detalle1.jpg",
+          "p":"Pura intuición inconsciente. Un dejarse llevar por el no saber descubriendo que el transfondo de las cosas cumple su función."
+        }
+    },
+    {
+      "id": 7,
+      "slug": "product7",
+      "title": "Gravedad incontrolada",
+      "excerpt": "xxx",
+      "thumb": "img/th-img8.jpg",
+      "imagen": "img/img8.jpg",
+      "description": "100cm ø 2019",
+      "content": 
+        {
+          "h1":"Sutilizando la materia",
+          "img1":"/img/detalle1.jpg",
+          "p":"Arena aún húmeda arrastrada por la gravedad. Aire de mis pulmones creando una burbuja de látex. El misterio ocurriendo."
+        }
+    },
+    {
+      "id": 8,
+      "slug": "product8",
+      "title": "Sin título. Serie Paisajes circulares",
+      "excerpt": "xxx",
+      "thumb": "img/th-img16.jpg",
+      "imagen": "img/img16.jpg",
+      "description": "50cm ø 2019",
+      "content": 
+        {
+          "h1":"Paisaje circular",
+          "img1":"/img/detalle1.jpg",
+          "p":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsa doloribus in provident placeat dolore!"
+        }
+    },
+    {
+      "id": 9,
+      "slug": "product9",
+      "title": "Pintura neptuniana",
+      "excerpt": "xxx",
+      "thumb": "img/th-img15.jpg",
+      "imagen": "img/img15.jpg",
+      "description": "Técnica mixta. 100cm ø 2019",
+      "content": 
+        {
+          "h1":"Superficie y profundidad de campo.",
+          "img1":"/img/detalle2.jpg",
+          "p":"Polvo de cobre, mica nacarada y arena moviéndose libremente por la superficie aún húmeda del cosmos."
+        }
+    },
+    {
+      "id": 10,
+      "slug": "product10",
+      "title": "Sin título",
+      "excerpt": "xxx",
+      "thumb": "img/th-img18.jpg",
+      "imagen": "img/img18.jpg",
+      "description": "100cm ø 2019",
+      "content": 
+        {
+          "h1":"Ondas de arena",
+          "img1":"/img/detalle1.jpg",
+          "p":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsa doloribus in provident placeat dolore!"
+        }
+    },
+    {
+      "id": 11,
+      "slug": "product11",
+      "title": "Sin título",
+      "excerpt": "xxx",
+      "thumb": "img/th-img17.jpg",
+      "imagen": "img/img17.jpg",
+      "description": "100cm ø 2019",
+      "content": 
+        {
+          "h1":"Ondas de arena",
+          "img1":"/img/detalle1.jpg",
+          "p":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsa doloribus in provident placeat dolore!"
+        }
+    },
+    {
+      "id": 12,
+      "slug": "product12",
+      "title": "Sin título",
+      "excerpt": "xxx",
+      "thumb": "img/th-img9.jpg",
+      "imagen": "img/img9.jpg",
+      "description": "Arena negra. 190x130cm. 2019",
+      "content": 
+        {
+          "h1":"Arena dibujada con viento",
+          "img1":"/img/detalle1.jpg",
+          "p":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsa doloribus in provident placeat dolore!"
+        }
+    }
+  ]
+}
