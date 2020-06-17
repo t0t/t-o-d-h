@@ -68,7 +68,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 2,
     "slug": "mi-workflow-ideal",
     "title": "Mi workflow ideal para prototipado UI",
     "subtitle": "Svelte, Sass, CSS Grid, Git, VS Code",
@@ -96,6 +96,37 @@
       "p11": "",
       "p12": "",
       "p13": ""
+    }
+  },
+  {
+    "id": 3,
+    "slug": "el-proceso-de-la-incursion",
+    "title": "El proceso de la incursión",
+    "subtitle": "Otro acercamiento a lo que es TODH",
+    "imagen": "img/grafico-7.svg",
+    "thumb": "img/grafico-7.svg",
+    "excerpt": "Lo que hacemos, sentimos, decimos y pensamos es la misma cosa.",
+    "content": {
+      "h1": "Todo es lo mismo",
+      "img1": "img/grafico-8.svg",
+      "img2": "img/grafico-5.svg",
+      "p": "Lo que hacemos, sentimos, decimos y pensamos es la misma cosa. Por eso es que la humanidad ha pretendido desde siempre separar estos cuatro principios o dimensiones del ser. TODH va en dirección 'contraria'. No es una explosión sino una implosión.",
+      "blockquote": {
+        "quote": "En el mar increado de Nun bullían millones de pececillos y sin embargo inexistían pues que esperaban ansiosos a picar en el anzuelo de Isis a fin de pasar de la inexistencia a la existencia.",
+        "author": "Ash-Shamsi: Kitab hayati qawmiyati al-mummiyat"
+      },
+      "p2": "Este proyecto que denomino TODH se centró primeramente en comprender el núcleo, la esencia, de estos 4 principios constitutivos de la realidad. Así que en primera instancia uno se adentra en el símbolo para registrar lo más hondo de que es capaz, atravesando la superfície de las cosas, percibiendo lo idéntico en lo diferente.",
+      "p3": "El hacer no es visto sólamente como un verbo sino que a un nivel más profundo es lo que está ocurriendo ahora mismo. Es el tiempo, el elemento tierra, es la vida, es el cuaternario, es la cruz y el cuadrado, son los ejes de la tierra, las estaciones del año... y así indefinidamente. Un montón de cosas son hacer.",
+      "p4": "Hacer es estar viviendo, habitar un cuerpo. Ser un cuerpo. Ser materia. Incluso la muerte, que puede ser entendida como el fin de toda actividad tiene que suceder en algún momento. Tiene que estar pasando tarde o temprano. El hacer es la experiencia misma. Cualquier experiencia. Cualquier manfestación. La duración, la vigencia, los hechos, la prueba de las cosas. Nada puede no-hacerse. Los pensamientos, cuando se producen, se hacen, suceden. Aunque pensemos en la no-acción, ya estamos haciendo algo; pensar. Las cosas sólo pueden nhacer. (nacer)",
+      "p5": "La mente humana, la mente concreta sólo sabe hacer una cosa; construir objetos, ya sean éstos virtuales o físicos, no importa, todo es un objeto si cumple la condición de estar en alguna parte...",
+      "p6": "Podrámos decir que el hacer es cualquier forma que adopta el momento presente. Pero no me interesa perderme en ese despliegue, es imposible abarcar la multiplicidad y fragmentación del mundo, del colectivo... para eso ya está el mundo y el colectivo, lo que sí puedo hacer es comprenderme a mi mismo, la semilla que soy, la singularidad holística que me habita... y entrar más adentro, al origen común de las cosas. Porque son sólo 4 cosas y así es más fácil comprender.",
+      "p7": "Decía antes que las cosas sólo pueden hacerse, y esto significa que nacen del ser. Qué bonita expresión. Porque, el ser, es otro de los cuatro elementos constitutivos primigenios de la realidad. Osea que también hay otro montón de cosas análogas al ser, al 1, la Unidad, que diría Pitágoras. Y que decir del decir... y qué decir del sentir...",
+      "p8": "Siempre es lo mismo; 1, 2, 3, 4 y.. 0! En esta primera fase de incursión a TODH uno se da cuenta de la estructura invisible que vertebra la realidad es en realidad visible. Resulta paradógico pero es así. Es como darse cuenta de que las gafas que andabas buscando las llevabas puestas. Es insultantemente obvio y maravilloso.",
+      "p9": "La mente abstracta es capaz de registrar las relaciones entre los objetos. Digamos que es un paso más allá. Usándola uno es capaz de percibir la analogía que baña todas las cosas, lo que las cosas tienen en común. El decir, al igual que pasaba con el hacer, adopta una dimensión más profunda y a la vez más extensa. Es el lenguaje poético, es el símbolo, es la relación, es el tercer punto que conecta otros dos. El decir es el color, el perfume de una rosa que le dice al mundo que existe. No sólo es sino que también se pronuncia, transmite, se vincula con otros algos.",
+      "p10": "Me tiré años creando mapas mentales, nubes de palabras y conceptos, observando la relación de las cosas, fascinado por la rotundidad y la magia que es todo este castillo de naipes de la vida, la cultura, el conocimiento... que se construye sobre algo tan elemental, y nunca mejor dicho, como los 5 elementos. Que son los números-idea de los que hablaba ya Pitágoras 5 siglos antes de Cristo.",
+      "p11": "Don Quijote es fuego (1) y aire (3), Sancho Panza es tierra (4) y agua (2). De repente llega a tí cualquer cosa y lo primero que haces es encontrar qué parte de esa cosa es 1 qué parte es 2, 3, 4 y 0. La astrología, la alquimia, la geometría, filosofía presocrática, Platón, la Tempestad de Shakespeare, las cosmogonías Mesopotámica y Egpcia... todo me habla de TODH, todo se ha construido siempre y se sigue construyendo en base a estas 5 dimensiones. Uno cae en una especie de fascinación de ver y comprobar una y otra vez la especie de telón de fondo o tapiz que sirve de guión de esta película.",
+      "p12": "Este tipo de 'risa', de plenitud, de comprensión, de 'euforia callada' sólo se comprende si le ocurre uno, no es algo para todo el mundo, es facil de experimentar pero hay que hacer algo muy difícil, sólo una cosa, tienes que estar abierto a ello y darte cuenta si es que te ocurre.",
+      "p13": "(Fin de la primera parte)"
     }
   }
 ]
