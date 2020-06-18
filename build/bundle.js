@@ -10446,24 +10446,31 @@ var app = (function () {
     	let t6;
     	let div1;
     	let a1;
-    	let img1;
-    	let img1_src_value;
-    	let t7;
+    	let pre;
+    	let code0;
+    	let code1;
+    	let code2;
+    	let code3;
+    	let code4;
+    	let code5;
+    	let code6;
+    	let code7;
+    	let t15;
     	let h41;
-    	let t9;
+    	let t17;
     	let p1;
-    	let t11;
+    	let t19;
     	let small1;
-    	let t13;
+    	let t21;
     	let div2;
     	let a2;
-    	let img2;
-    	let img2_src_value;
-    	let t14;
+    	let img1;
+    	let img1_src_value;
+    	let t22;
     	let h42;
-    	let t16;
+    	let t24;
     	let p2;
-    	let t18;
+    	let t26;
     	let small2;
 
     	const block = {
@@ -10474,86 +10481,116 @@ var app = (function () {
     			img0 = element("img");
     			t0 = space();
     			h40 = element("h4");
-    			h40.textContent = "Artefactos";
+    			h40.textContent = "Coagulando la vibración";
     			t2 = space();
     			p0 = element("p");
-    			p0.textContent = "Visión holística y artefactos en torno a la Creación. Obra plástica e impresión 3D";
+    			p0.textContent = "TODH traído a la materia como objeto de contemplación. Obra plástica e impresiones 3D";
     			t4 = space();
     			small0 = element("small");
     			small0.textContent = "Learn more >";
     			t6 = space();
     			div1 = element("div");
     			a1 = element("a");
-    			img1 = element("img");
-    			t7 = space();
+    			pre = element("pre");
+    			code0 = element("code");
+    			code0.textContent = "// Discernir";
+    			code1 = element("code");
+    			code1.textContent = `${/*html*/ ctx[0].js}`;
+    			code2 = element("code");
+    			code2.textContent = "// Sentir";
+    			code3 = element("code");
+    			code3.textContent = `${/*html*/ ctx[0].style}`;
+    			code4 = element("code");
+    			code4.textContent = "// Hacer";
+    			code5 = element("code");
+    			code5.textContent = `${/*html*/ ctx[0].html}`;
+    			code6 = element("code");
+    			code6.textContent = "// Transmtir";
+    			code7 = element("code");
+    			code7.textContent = "Hello Cosmos!";
+    			t15 = space();
     			h41 = element("h4");
-    			h41.textContent = "Diseñador gráfico especializado en UI y web layout";
-    			t9 = space();
+    			h41.textContent = "Hello Cosmos";
+    			t17 = space();
     			p1 = element("p");
-    			p1.textContent = "Diseño front-end de batalla. Browser prototyping. I love: System Design, CSS grid layout, Sass mixins, Svelte...";
-    			t11 = space();
+    			p1.textContent = "TODH en el diseño Frontend y mi workflow de creación digital ideal.";
+    			t19 = space();
     			small1 = element("small");
     			small1.textContent = "Learn more >";
-    			t13 = space();
+    			t21 = space();
     			div2 = element("div");
     			a2 = element("a");
-    			img2 = element("img");
-    			t14 = space();
+    			img1 = element("img");
+    			t22 = space();
     			h42 = element("h4");
-    			h42.textContent = "Pensamento holístico";
-    			t16 = space();
+    			h42.textContent = "Sentir-Orden-Forma-Conexión";
+    			t24 = space();
     			p2 = element("p");
-    			p2.textContent = "Cuaderno de bitácora de mi filosofía TODH";
-    			t18 = space();
+    			p2.textContent = "Laboratorio de experiencias y bitácora de reflexiones en torno al proceso de la Creación desde la Sabiduría Primigenia.";
+    			t26 = space();
     			small2 = element("small");
     			small2.textContent = "Learn more >";
     			if (img0.src !== (img0_src_value = "img/img1.jpg")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
-    			attr_dev(img0, "class", "svelte-1t3flod");
-    			add_location(img0, file$u, 694, 12, 15358);
-    			attr_dev(h40, "class", "svelte-1t3flod");
-    			add_location(h40, file$u, 695, 12, 15402);
-    			attr_dev(p0, "class", "svelte-1t3flod");
-    			add_location(p0, file$u, 696, 12, 15434);
-    			attr_dev(small0, "class", "svelte-1t3flod");
-    			add_location(small0, file$u, 697, 12, 15536);
+    			attr_dev(img0, "class", "svelte-jeas53");
+    			add_location(img0, file$u, 721, 12, 15730);
+    			attr_dev(h40, "class", "svelte-jeas53");
+    			add_location(h40, file$u, 722, 12, 15774);
+    			attr_dev(p0, "class", "svelte-jeas53");
+    			add_location(p0, file$u, 723, 12, 15819);
+    			attr_dev(small0, "class", "svelte-jeas53");
+    			add_location(small0, file$u, 724, 12, 15924);
     			attr_dev(a0, "href", "/products");
-    			attr_dev(a0, "class", "svelte-1t3flod");
-    			add_location(a0, file$u, 693, 8, 15325);
-    			attr_dev(div0, "class", "svelte-1t3flod");
-    			add_location(div0, file$u, 692, 4, 15311);
-    			if (img1.src !== (img1_src_value = "img/front.png")) attr_dev(img1, "src", img1_src_value);
-    			attr_dev(img1, "alt", "");
-    			attr_dev(img1, "class", "svelte-1t3flod");
-    			add_location(img1, file$u, 702, 12, 15641);
-    			attr_dev(h41, "class", "svelte-1t3flod");
-    			add_location(h41, file$u, 703, 12, 15686);
-    			attr_dev(p1, "class", "svelte-1t3flod");
-    			add_location(p1, file$u, 704, 12, 15758);
-    			attr_dev(small1, "class", "svelte-1t3flod");
-    			add_location(small1, file$u, 705, 12, 15890);
+    			attr_dev(a0, "class", "svelte-jeas53");
+    			add_location(a0, file$u, 720, 8, 15697);
+    			attr_dev(div0, "class", "svelte-jeas53");
+    			add_location(div0, file$u, 719, 4, 15683);
+    			attr_dev(code0, "class", "comment svelte-jeas53");
+    			add_location(code0, file$u, 730, 16, 16051);
+    			attr_dev(code1, "class", "js svelte-jeas53");
+    			add_location(code1, file$u, 730, 57, 16092);
+    			attr_dev(code2, "class", "comment svelte-jeas53");
+    			add_location(code2, file$u, 730, 90, 16125);
+    			attr_dev(code3, "class", "style svelte-jeas53");
+    			add_location(code3, file$u, 730, 128, 16163);
+    			attr_dev(code4, "class", "comment svelte-jeas53");
+    			add_location(code4, file$u, 730, 167, 16202);
+    			attr_dev(code5, "class", "html svelte-jeas53");
+    			add_location(code5, file$u, 730, 204, 16239);
+    			attr_dev(code6, "class", "comment svelte-jeas53");
+    			add_location(code6, file$u, 730, 241, 16276);
+    			attr_dev(code7, "class", "svelte-jeas53");
+    			add_location(code7, file$u, 730, 282, 16317);
+    			attr_dev(pre, "class", "svelte-jeas53");
+    			add_location(pre, file$u, 729, 12, 16029);
+    			attr_dev(h41, "class", "svelte-jeas53");
+    			add_location(h41, file$u, 733, 12, 16376);
+    			attr_dev(p1, "class", "svelte-jeas53");
+    			add_location(p1, file$u, 734, 12, 16410);
+    			attr_dev(small1, "class", "svelte-jeas53");
+    			add_location(small1, file$u, 735, 12, 16497);
     			attr_dev(a1, "href", "/styleguide");
-    			attr_dev(a1, "class", "svelte-1t3flod");
-    			add_location(a1, file$u, 701, 8, 15606);
-    			attr_dev(div1, "class", "svelte-1t3flod");
-    			add_location(div1, file$u, 700, 4, 15592);
-    			if (img2.src !== (img2_src_value = "img/grafico-6.svg")) attr_dev(img2, "src", img2_src_value);
-    			attr_dev(img2, "alt", "");
-    			attr_dev(img2, "class", "svelte-1t3flod");
-    			add_location(img2, file$u, 710, 12, 15989);
-    			attr_dev(h42, "class", "svelte-1t3flod");
-    			add_location(h42, file$u, 711, 12, 16038);
-    			attr_dev(p2, "class", "svelte-1t3flod");
-    			add_location(p2, file$u, 712, 12, 16080);
-    			attr_dev(small2, "class", "svelte-1t3flod");
-    			add_location(small2, file$u, 713, 12, 16141);
+    			attr_dev(a1, "class", "svelte-jeas53");
+    			add_location(a1, file$u, 728, 8, 15994);
+    			attr_dev(div1, "class", "svelte-jeas53");
+    			add_location(div1, file$u, 727, 4, 15980);
+    			if (img1.src !== (img1_src_value = "img/grafico-6.svg")) attr_dev(img1, "src", img1_src_value);
+    			attr_dev(img1, "alt", "");
+    			attr_dev(img1, "class", "svelte-jeas53");
+    			add_location(img1, file$u, 740, 12, 16596);
+    			attr_dev(h42, "class", "svelte-jeas53");
+    			add_location(h42, file$u, 741, 12, 16645);
+    			attr_dev(p2, "class", "svelte-jeas53");
+    			add_location(p2, file$u, 742, 12, 16694);
+    			attr_dev(small2, "class", "svelte-jeas53");
+    			add_location(small2, file$u, 743, 12, 16833);
     			attr_dev(a2, "href", "/blog");
-    			attr_dev(a2, "class", "svelte-1t3flod");
-    			add_location(a2, file$u, 709, 8, 15960);
-    			attr_dev(div2, "class", "svelte-1t3flod");
-    			add_location(div2, file$u, 708, 4, 15946);
-    			attr_dev(div3, "class", "MainFeatures svelte-1t3flod");
-    			add_location(div3, file$u, 691, 0, 15280);
+    			attr_dev(a2, "class", "svelte-jeas53");
+    			add_location(a2, file$u, 739, 8, 16567);
+    			attr_dev(div2, "class", "svelte-jeas53");
+    			add_location(div2, file$u, 738, 4, 16553);
+    			attr_dev(div3, "class", "MainFeatures svelte-jeas53");
+    			add_location(div3, file$u, 718, 0, 15652);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -10572,22 +10609,30 @@ var app = (function () {
     			append_dev(div3, t6);
     			append_dev(div3, div1);
     			append_dev(div1, a1);
-    			append_dev(a1, img1);
-    			append_dev(a1, t7);
+    			append_dev(a1, pre);
+    			append_dev(pre, code0);
+    			append_dev(pre, code1);
+    			append_dev(pre, code2);
+    			append_dev(pre, code3);
+    			append_dev(pre, code4);
+    			append_dev(pre, code5);
+    			append_dev(pre, code6);
+    			append_dev(pre, code7);
+    			append_dev(a1, t15);
     			append_dev(a1, h41);
-    			append_dev(a1, t9);
+    			append_dev(a1, t17);
     			append_dev(a1, p1);
-    			append_dev(a1, t11);
+    			append_dev(a1, t19);
     			append_dev(a1, small1);
-    			append_dev(div3, t13);
+    			append_dev(div3, t21);
     			append_dev(div3, div2);
     			append_dev(div2, a2);
-    			append_dev(a2, img2);
-    			append_dev(a2, t14);
+    			append_dev(a2, img1);
+    			append_dev(a2, t22);
     			append_dev(a2, h42);
-    			append_dev(a2, t16);
+    			append_dev(a2, t24);
     			append_dev(a2, p2);
-    			append_dev(a2, t18);
+    			append_dev(a2, t26);
     			append_dev(a2, small2);
     		},
     		p: noop,
@@ -10610,6 +10655,16 @@ var app = (function () {
     }
 
     function instance$v($$self, $$props, $$invalidate) {
+    	let html = {
+    		js: `let message = "Cosmos"`,
+    		style: `.helloCosmos {
+    background-color: black;
+}`,
+    		html: `<p class="helloCosmos">
+    Hello { message }!
+</p>`
+    	};
+
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -10618,8 +10673,17 @@ var app = (function () {
 
     	let { $$slots = {}, $$scope } = $$props;
     	validate_slots("MainFeatures", $$slots, []);
-    	$$self.$capture_state = () => ({ IconCuatro });
-    	return [];
+    	$$self.$capture_state = () => ({ IconCuatro, html });
+
+    	$$self.$inject_state = $$props => {
+    		if ("html" in $$props) $$invalidate(0, html = $$props.html);
+    	};
+
+    	if ($$props && "$$inject" in $$props) {
+    		$$self.$inject_state($$props.$$inject);
+    	}
+
+    	return [html];
     }
 
     class MainFeatures extends SvelteComponentDev {
@@ -10814,8 +10878,8 @@ var app = (function () {
     /* src/pages/index.svelte generated by Svelte v3.23.2 */
     const file$w = "src/pages/index.svelte";
 
-    // (665:6) <Area>
-    function create_default_slot_5$1(ctx) {
+    // (666:4) <Area>
+    function create_default_slot_6$1(ctx) {
     	let coverintrocarousel;
     	let current;
     	coverintrocarousel = new CoverIntroCarousel({ $$inline: true });
@@ -10844,16 +10908,47 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_5$1.name,
+    		id: create_default_slot_6$1.name,
     		type: "slot",
-    		source: "(665:6) <Area>",
+    		source: "(666:4) <Area>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (699:6) <Area>
+    // (672:4) <Area>
+    function create_default_slot_5$1(ctx) {
+    	let script;
+    	let script_src_value;
+
+    	const block = {
+    		c: function create() {
+    			script = element("script");
+    			if (script.src !== (script_src_value = "https://gist.github.com/t0t/791d882295d5530c4a7c9689e7ba73f9.js")) attr_dev(script, "src", script_src_value);
+    			attr_dev(script, "class", "svelte-bmovwg");
+    			add_location(script, file$w, 672, 6, 15056);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, script, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(script);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_5$1.name,
+    		type: "slot",
+    		source: "(672:4) <Area>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (675:4) <Area>
     function create_default_slot_4$1(ctx) {
     	let p;
     	let t1;
@@ -10876,7 +10971,7 @@ var app = (function () {
     			t1 = space();
     			create_component(blockquote.$$.fragment);
     			attr_dev(p, "class", "svelte-bmovwg");
-    			add_location(p, file$w, 699, 6, 15860);
+    			add_location(p, file$w, 675, 4, 15171);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -10905,14 +11000,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4$1.name,
     		type: "slot",
-    		source: "(699:6) <Area>",
+    		source: "(675:4) <Area>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (704:6) <Banner variante={1}>
+    // (680:4) <Banner variante={1}>
     function create_default_slot_3$2(ctx) {
     	let icontres;
     	let t;
@@ -10964,14 +11059,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3$2.name,
     		type: "slot",
-    		source: "(704:6) <Banner variante={1}>",
+    		source: "(680:4) <Banner variante={1}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (709:8) <Banner>
+    // (685:4) <Banner>
     function create_default_slot_2$3(ctx) {
     	let blockquote;
     	let t;
@@ -11023,14 +11118,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2$3.name,
     		type: "slot",
-    		source: "(709:8) <Banner>",
+    		source: "(685:4) <Banner>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (664:4) <ContentArea>
+    // (665:2) <ContentArea>
     function create_default_slot_1$3(ctx) {
     	let area0;
     	let t0;
@@ -11038,14 +11133,16 @@ var app = (function () {
     	let t1;
     	let area1;
     	let t2;
-    	let banner0;
+    	let area2;
     	let t3;
+    	let banner0;
+    	let t4;
     	let banner1;
     	let current;
 
     	area0 = new Area({
     			props: {
-    				$$slots: { default: [create_default_slot_5$1] },
+    				$$slots: { default: [create_default_slot_6$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -11054,6 +11151,14 @@ var app = (function () {
     	mainfeatures = new MainFeatures({ $$inline: true });
 
     	area1 = new Area({
+    			props: {
+    				$$slots: { default: [create_default_slot_5$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	area2 = new Area({
     			props: {
     				$$slots: { default: [create_default_slot_4$1] },
     				$$scope: { ctx }
@@ -11086,8 +11191,10 @@ var app = (function () {
     			t1 = space();
     			create_component(area1.$$.fragment);
     			t2 = space();
-    			create_component(banner0.$$.fragment);
+    			create_component(area2.$$.fragment);
     			t3 = space();
+    			create_component(banner0.$$.fragment);
+    			t4 = space();
     			create_component(banner1.$$.fragment);
     		},
     		m: function mount(target, anchor) {
@@ -11097,8 +11204,10 @@ var app = (function () {
     			insert_dev(target, t1, anchor);
     			mount_component(area1, target, anchor);
     			insert_dev(target, t2, anchor);
-    			mount_component(banner0, target, anchor);
+    			mount_component(area2, target, anchor);
     			insert_dev(target, t3, anchor);
+    			mount_component(banner0, target, anchor);
+    			insert_dev(target, t4, anchor);
     			mount_component(banner1, target, anchor);
     			current = true;
     		},
@@ -11117,6 +11226,13 @@ var app = (function () {
     			}
 
     			area1.$set(area1_changes);
+    			const area2_changes = {};
+
+    			if (dirty & /*$$scope*/ 2) {
+    				area2_changes.$$scope = { dirty, ctx };
+    			}
+
+    			area2.$set(area2_changes);
     			const banner0_changes = {};
 
     			if (dirty & /*$$scope*/ 2) {
@@ -11137,6 +11253,7 @@ var app = (function () {
     			transition_in(area0.$$.fragment, local);
     			transition_in(mainfeatures.$$.fragment, local);
     			transition_in(area1.$$.fragment, local);
+    			transition_in(area2.$$.fragment, local);
     			transition_in(banner0.$$.fragment, local);
     			transition_in(banner1.$$.fragment, local);
     			current = true;
@@ -11145,6 +11262,7 @@ var app = (function () {
     			transition_out(area0.$$.fragment, local);
     			transition_out(mainfeatures.$$.fragment, local);
     			transition_out(area1.$$.fragment, local);
+    			transition_out(area2.$$.fragment, local);
     			transition_out(banner0.$$.fragment, local);
     			transition_out(banner1.$$.fragment, local);
     			current = false;
@@ -11156,8 +11274,10 @@ var app = (function () {
     			if (detaching) detach_dev(t1);
     			destroy_component(area1, detaching);
     			if (detaching) detach_dev(t2);
-    			destroy_component(banner0, detaching);
+    			destroy_component(area2, detaching);
     			if (detaching) detach_dev(t3);
+    			destroy_component(banner0, detaching);
+    			if (detaching) detach_dev(t4);
     			destroy_component(banner1, detaching);
     		}
     	};
@@ -11166,14 +11286,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$3.name,
     		type: "slot",
-    		source: "(664:4) <ContentArea>",
+    		source: "(665:2) <ContentArea>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (663:2) <Content>
+    // (664:0) <Content>
     function create_default_slot$5(ctx) {
     	let contentarea;
     	let current;
@@ -11221,7 +11341,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$5.name,
     		type: "slot",
-    		source: "(663:2) <Content>",
+    		source: "(664:0) <Content>",
     		ctx
     	});
 
@@ -11229,6 +11349,8 @@ var app = (function () {
     }
 
     function create_fragment$x(ctx) {
+    	let script;
+    	let script_src_value;
     	let t0;
     	let pagetitle;
     	let t1;
@@ -11237,8 +11359,8 @@ var app = (function () {
 
     	pagetitle = new PageTitle({
     			props: {
-    				pageTitle: "Sergio Forés",
-    				pageSubTitle: "Arte, Diseño Front-end y conciencia holística. 👋"
+    				pageTitle: "T-O-D-H",
+    				pageSubTitle: "Artefactos y procesos basados en la cosmovisión primigenia"
     			},
     			$$inline: true
     		});
@@ -11253,16 +11375,21 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
+    			script = element("script");
     			t0 = space();
     			create_component(pagetitle.$$.fragment);
     			t1 = space();
     			create_component(content.$$.fragment);
     			document.title = "TODH";
+    			if (script.src !== (script_src_value = "https://gist.github.com/t0t/791d882295d5530c4a7c9689e7ba73f9.js")) attr_dev(script, "src", script_src_value);
+    			attr_dev(script, "class", "svelte-bmovwg");
+    			add_location(script, file$w, 658, 2, 14713);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
+    			append_dev(document.head, script);
     			insert_dev(target, t0, anchor);
     			mount_component(pagetitle, target, anchor);
     			insert_dev(target, t1, anchor);
@@ -11290,6 +11417,7 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
+    			detach_dev(script);
     			if (detaching) detach_dev(t0);
     			destroy_component(pagetitle, detaching);
     			if (detaching) detach_dev(t1);
@@ -16448,7 +16576,7 @@ var app = (function () {
     }
 
     // (927:10) <SwipeItem>
-    function create_default_slot_6$1(ctx) {
+    function create_default_slot_6$2(ctx) {
     	let img;
     	let img_src_value;
 
@@ -16470,7 +16598,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_6$1.name,
+    		id: create_default_slot_6$2.name,
     		type: "slot",
     		source: "(927:10) <SwipeItem>",
     		ctx
@@ -16516,7 +16644,7 @@ var app = (function () {
 
     	swipeitem3 = new SwipeItem({
     			props: {
-    				$$slots: { default: [create_default_slot_6$1] },
+    				$$slots: { default: [create_default_slot_6$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
