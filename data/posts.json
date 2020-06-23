@@ -38,8 +38,8 @@
     "slug": "todo-viene-de-un-prototipo-2",
     "title": "Todo viene de un prototipo (2)",
     "subtitle": "Parte 2",
-    "imagen": "img/grafico-8.svg",
-    "thumb": "img/grafico-8.svg",
+    "imagen": "img/grafico-7-white.svg",
+    "thumb": "img/grafico-7-white.svg",
     "excerpt": "Un prototipo es ya de algún modo, ese 'algo' latente que andamos buscando.",
     "content": {
       "h1": "Bajo un paradigma funcional sistémico y vivo",
@@ -72,8 +72,8 @@
     "slug": "mi-workflow-ideal",
     "title": "Mi workflow ideal para prototipado UI",
     "subtitle": "Svelte, Sass, CSS Grid, Git, VS Code",
-    "imagen": "img/vibra.svg",
-    "thumb": "img/vibra.svg",
+    "imagen": "img/vibra_white.svg",
+    "thumb": "img/vibra_white.svg",
     "excerpt": "Mantener las cosas tan simples como se pueda, que luego ya habrá tiempo para complicaciones",
     "content": {
       "h1": "Precedentes",
@@ -134,8 +134,8 @@
     "slug": "lo-mismo-de-otra-manera",
     "title": "Lo mismo pero de otra manera",
     "subtitle": "Mi proceso",
-    "imagen": "img/grafico-6.svg",
-    "thumb": "img/grafico-6.svg",
+    "imagen": "img/grafico-5.svg",
+    "thumb": "img/grafico-5.svg",
     "excerpt": "Hay un orden mayor lo dirige todo, te guste o no. Ahora ya no es una especulación, una teoría, lo tienes claro.",
     "content": {
       "h1": "",
