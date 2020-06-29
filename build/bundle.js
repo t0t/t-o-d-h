@@ -3097,9 +3097,9 @@ var app = (function () {
     			attr_dev(a, "href", a_href_value = /*$url*/ ctx[0](/*path*/ ctx[5]));
     			attr_dev(a, "class", "svelte-bgmfyc");
     			toggle_class(a, "selected", /*$isActive*/ ctx[1](/*path*/ ctx[5]));
-    			add_location(a, file$3, 745, 6, 15030);
+    			add_location(a, file$3, 745, 6, 15041);
     			attr_dev(li, "class", "svelte-bgmfyc");
-    			add_location(li, file$3, 744, 4, 15019);
+    			add_location(li, file$3, 744, 4, 15030);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -3150,9 +3150,9 @@ var app = (function () {
     			attr_dev(a, "href", a_href_value = /*$url*/ ctx[0](/*path*/ ctx[5]));
     			attr_dev(a, "class", "svelte-bgmfyc");
     			toggle_class(a, "selected", /*$isActive*/ ctx[1](/*path*/ ctx[5]));
-    			add_location(a, file$3, 757, 6, 15274);
+    			add_location(a, file$3, 757, 6, 15285);
     			attr_dev(li, "class", "svelte-bgmfyc");
-    			add_location(li, file$3, 756, 4, 15263);
+    			add_location(li, file$3, 756, 4, 15274);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -3231,13 +3231,13 @@ var app = (function () {
     			}
 
     			attr_dev(ul0, "class", "NavBar__left svelte-bgmfyc");
-    			add_location(ul0, file$3, 742, 2, 14950);
+    			add_location(ul0, file$3, 742, 2, 14961);
     			attr_dev(div, "class", "NavBar__center svelte-bgmfyc");
-    			add_location(div, file$3, 750, 2, 15134);
+    			add_location(div, file$3, 750, 2, 15145);
     			attr_dev(ul1, "class", "NavBar__right svelte-bgmfyc");
-    			add_location(ul1, file$3, 754, 2, 15192);
+    			add_location(ul1, file$3, 754, 2, 15203);
     			attr_dev(nav, "class", "NavBar svelte-bgmfyc");
-    			add_location(nav, file$3, 741, 0, 14927);
+    			add_location(nav, file$3, 741, 0, 14938);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3346,8 +3346,8 @@ var app = (function () {
     	component_subscribe($$self, url, $$value => $$invalidate(0, $url = $$value));
     	validate_store(isActive, "isActive");
     	component_subscribe($$self, isActive, $$value => $$invalidate(1, $isActive = $$value));
-    	const _linksLeft = [["./about", "TODH"], ["./styleguide", "LAB"]];
-    	const _linksRight = [["./products", "Artifacts"], ["./blog", "Blog"]];
+    	const _linksLeft = [["./styleguide", "Hacer"], ["./blog", "Discernir"]];
+    	const _linksRight = [["./products", "Observar"], ["./about", "Transmtir"]];
 
     	// let showControls = false;
     	// const toggleControls = () => (showControls = !showControls);
@@ -30187,7 +30187,7 @@ var app = (function () {
     		c: function create() {
     			svg = svg_element("svg");
     			attr_dev(svg, "id", "graph2");
-    			add_location(svg, file$A, 85, 0, 2810);
+    			add_location(svg, file$A, 85, 0, 2754);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -30233,14 +30233,14 @@ var app = (function () {
 
     	onMount(() => {
     		const svgWidth = 500;
-    		const svgHeight = 300;
+    		const svgHeight = 500;
     		const svg = select("#graph2").attr("width", svgWidth).attr("height", svgHeight).append("g").attr("transform", "translate(50,50)");
 
     		const dataStructure = stratify().id(function (d) {
     			return d.child;
     		}).parentId(d => d.parent)(dataset);
 
-    		const treeStructure = tree().size([400, 200]);
+    		const treeStructure = tree().size([350, 400]);
     		const information = treeStructure(dataStructure);
 
     		// console.log(information.descendants());
@@ -30251,23 +30251,23 @@ var app = (function () {
     			return d.x;
     		}).attr("cy", function (d) {
     			return d.y;
-    		}).attr("r", 4).attr("fill", "grey");
+    		}).attr("r", 4).attr("fill", "black");
 
     		const connections = svg.append("g").selectAll("path").data(information.links());
 
     		connections.enter().append("path").attr("d", function (d) {
     			return "M" + d.source.x + "," + d.source.y + "C" + d.source.x + "," + (d.source.y + d.target.y) / 2 + " " + d.target.x + "," + (d.source.y + d.target.y) / 2 + " " + d.target.x + "," + d.target.y;
-    		}).attr("stroke-width", 1).attr("stroke", "grey").attr("fill", "none");
+    		}).attr("stroke-width", 1).attr("stroke", "black").attr("fill", "none");
 
     		const names = svg.append("g").selectAll("text").data(information.descendants());
 
     		names.enter().append("text").text(function (d) {
     			return d.data.child;
     		}).attr("x", function (d) {
-    			return d.x + 8;
+    			return d.x + 20;
     		}).attr("y", function (d) {
     			return d.y + 3;
-    		}).attr("fill", "white").attr("font-size", "10");
+    		}).attr("fill", "black");
     	});
 
     	const writable_props = [];
@@ -30335,7 +30335,7 @@ var app = (function () {
 
     function instance$C($$self, $$props, $$invalidate) {
     	onMount(() => {
-    		let radius = 600;
+    		let radius = 450;
     		const svg = select("#chart5").append("svg").attr("width", radius).attr("height", radius).attr("id", "svg");
     		const g = svg.append("g").attr("transform", "translate(0,0)");
     		const packLayout = index$2().size([radius - 4, radius - 4]).padding(1.5);
@@ -30379,8 +30379,199 @@ var app = (function () {
     /* src/pages/index.svelte generated by Svelte v3.23.2 */
     const file$C = "src/pages/index.svelte";
 
-    // (708:4) <Area>
+    // (699:2) <Banner>
+    function create_default_slot_6$1(ctx) {
+    	let dvizcinco;
+    	let t0;
+    	let div;
+    	let h1;
+    	let t2;
+    	let h2;
+    	let t4;
+    	let p;
+    	let current;
+    	dvizcinco = new DvizCinco({ $$inline: true });
+
+    	const block = {
+    		c: function create() {
+    			create_component(dvizcinco.$$.fragment);
+    			t0 = space();
+    			div = element("div");
+    			h1 = element("h1");
+    			h1.textContent = "T-O-D-H";
+    			t2 = space();
+    			h2 = element("h2");
+    			h2.textContent = "Sólo me interesa una cosa: TODO";
+    			t4 = space();
+    			p = element("p");
+    			p.textContent = "3d Printed art, holistic maps, front-end prototyping and all that shit";
+    			attr_dev(h1, "class", "svelte-57yy9z");
+    			add_location(h1, file$C, 701, 6, 15021);
+    			attr_dev(h2, "class", "svelte-57yy9z");
+    			add_location(h2, file$C, 702, 4, 15042);
+    			attr_dev(p, "class", "svelte-57yy9z");
+    			add_location(p, file$C, 703, 4, 15087);
+    			attr_dev(div, "class", "svelte-57yy9z");
+    			add_location(div, file$C, 700, 4, 15009);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(dvizcinco, target, anchor);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(div, t2);
+    			append_dev(div, h2);
+    			append_dev(div, t4);
+    			append_dev(div, p);
+    			current = true;
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(dvizcinco.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(dvizcinco.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(dvizcinco, detaching);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_6$1.name,
+    		type: "slot",
+    		source: "(699:2) <Banner>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (707:2) <Banner variante={2}>
+    function create_default_slot_5$1(ctx) {
+    	let blockquote;
+    	let t;
+    	let dvizcuatro;
+    	let current;
+
+    	blockquote = new BlockQuote({
+    			props: {
+    				quote: "Data visualization, mental maps, front-end prototyping",
+    				author: "TODH"
+    			},
+    			$$inline: true
+    		});
+
+    	dvizcuatro = new DvizCuatro({ $$inline: true });
+
+    	const block = {
+    		c: function create() {
+    			create_component(blockquote.$$.fragment);
+    			t = space();
+    			create_component(dvizcuatro.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(blockquote, target, anchor);
+    			insert_dev(target, t, anchor);
+    			mount_component(dvizcuatro, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(blockquote.$$.fragment, local);
+    			transition_in(dvizcuatro.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(blockquote.$$.fragment, local);
+    			transition_out(dvizcuatro.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(blockquote, detaching);
+    			if (detaching) detach_dev(t);
+    			destroy_component(dvizcuatro, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_5$1.name,
+    		type: "slot",
+    		source: "(707:2) <Banner variante={2}>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (711:2) <Banner>
     function create_default_slot_4$1(ctx) {
+    	let blockquote;
+    	let t;
+    	let dviztres;
+    	let current;
+
+    	blockquote = new BlockQuote({
+    			props: {
+    				quote: "Sentir el orden forma la conexión",
+    				author: "TODH"
+    			},
+    			$$inline: true
+    		});
+
+    	dviztres = new DvizTres({ $$inline: true });
+
+    	const block = {
+    		c: function create() {
+    			create_component(blockquote.$$.fragment);
+    			t = space();
+    			create_component(dviztres.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(blockquote, target, anchor);
+    			insert_dev(target, t, anchor);
+    			mount_component(dviztres, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(blockquote.$$.fragment, local);
+    			transition_in(dviztres.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(blockquote.$$.fragment, local);
+    			transition_out(dviztres.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(blockquote, detaching);
+    			if (detaching) detach_dev(t);
+    			destroy_component(dviztres, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_4$1.name,
+    		type: "slot",
+    		source: "(711:2) <Banner>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (719:4) <Area>
+    function create_default_slot_3$1(ctx) {
     	let p;
     	let t1;
     	let blockquote0;
@@ -30428,7 +30619,7 @@ var app = (function () {
     			t3 = space();
     			create_component(blockquote2.$$.fragment);
     			attr_dev(p, "class", "svelte-57yy9z");
-    			add_location(p, file$C, 708, 6, 15213);
+    			add_location(p, file$C, 719, 6, 15508);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -30467,75 +30658,16 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_4$1.name,
-    		type: "slot",
-    		source: "(708:4) <Area>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (717:4) <Banner variante={1}>
-    function create_default_slot_3$1(ctx) {
-    	let icontres;
-    	let t;
-    	let blockquote;
-    	let current;
-    	icontres = new IconTres({ $$inline: true });
-
-    	blockquote = new BlockQuote({
-    			props: {
-    				variante: 2,
-    				quote: "En el universo hay cosas que son conocidas y hay cosas que son desconocidas y entre ellas hay puertas...",
-    				author: "William Blake"
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(icontres.$$.fragment);
-    			t = space();
-    			create_component(blockquote.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(icontres, target, anchor);
-    			insert_dev(target, t, anchor);
-    			mount_component(blockquote, target, anchor);
-    			current = true;
-    		},
-    		p: noop,
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(icontres.$$.fragment, local);
-    			transition_in(blockquote.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(icontres.$$.fragment, local);
-    			transition_out(blockquote.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(icontres, detaching);
-    			if (detaching) detach_dev(t);
-    			destroy_component(blockquote, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
     		id: create_default_slot_3$1.name,
     		type: "slot",
-    		source: "(717:4) <Banner variante={1}>",
+    		source: "(719:4) <Area>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (723:4) <Banner>
+    // (729:4) <Banner>
     function create_default_slot_2$2(ctx) {
     	let blockquote;
     	let t;
@@ -30587,14 +30719,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2$2.name,
     		type: "slot",
-    		source: "(723:4) <Banner>",
+    		source: "(729:4) <Banner>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (722:2) <ContentArea>
+    // (728:2) <ContentArea>
     function create_default_slot_1$3(ctx) {
     	let banner;
     	let current;
@@ -30642,29 +30774,46 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$3.name,
     		type: "slot",
-    		source: "(722:2) <ContentArea>",
+    		source: "(728:2) <ContentArea>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (700:0) <Content>
+    // (698:0) <Content>
     function create_default_slot$5(ctx) {
-    	let dvizcinco;
+    	let banner0;
     	let t0;
-    	let mainfeatures;
+    	let banner1;
     	let t1;
-    	let area;
+    	let banner2;
     	let t2;
-    	let banner;
+    	let mainfeatures;
     	let t3;
+    	let area;
+    	let t4;
     	let contentarea;
     	let current;
-    	dvizcinco = new DvizCinco({ $$inline: true });
-    	mainfeatures = new MainFeatures({ $$inline: true });
 
-    	area = new Area({
+    	banner0 = new Banner({
+    			props: {
+    				$$slots: { default: [create_default_slot_6$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	banner1 = new Banner({
+    			props: {
+    				variante: 2,
+    				$$slots: { default: [create_default_slot_5$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	banner2 = new Banner({
     			props: {
     				$$slots: { default: [create_default_slot_4$1] },
     				$$scope: { ctx }
@@ -30672,9 +30821,10 @@ var app = (function () {
     			$$inline: true
     		});
 
-    	banner = new Banner({
+    	mainfeatures = new MainFeatures({ $$inline: true });
+
+    	area = new Area({
     			props: {
-    				variante: 1,
     				$$slots: { default: [create_default_slot_3$1] },
     				$$scope: { ctx }
     			},
@@ -30691,29 +30841,54 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			create_component(dvizcinco.$$.fragment);
+    			create_component(banner0.$$.fragment);
     			t0 = space();
-    			create_component(mainfeatures.$$.fragment);
+    			create_component(banner1.$$.fragment);
     			t1 = space();
-    			create_component(area.$$.fragment);
+    			create_component(banner2.$$.fragment);
     			t2 = space();
-    			create_component(banner.$$.fragment);
+    			create_component(mainfeatures.$$.fragment);
     			t3 = space();
+    			create_component(area.$$.fragment);
+    			t4 = space();
     			create_component(contentarea.$$.fragment);
     		},
     		m: function mount(target, anchor) {
-    			mount_component(dvizcinco, target, anchor);
+    			mount_component(banner0, target, anchor);
     			insert_dev(target, t0, anchor);
-    			mount_component(mainfeatures, target, anchor);
+    			mount_component(banner1, target, anchor);
     			insert_dev(target, t1, anchor);
-    			mount_component(area, target, anchor);
+    			mount_component(banner2, target, anchor);
     			insert_dev(target, t2, anchor);
-    			mount_component(banner, target, anchor);
+    			mount_component(mainfeatures, target, anchor);
     			insert_dev(target, t3, anchor);
+    			mount_component(area, target, anchor);
+    			insert_dev(target, t4, anchor);
     			mount_component(contentarea, target, anchor);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
+    			const banner0_changes = {};
+
+    			if (dirty & /*$$scope*/ 2) {
+    				banner0_changes.$$scope = { dirty, ctx };
+    			}
+
+    			banner0.$set(banner0_changes);
+    			const banner1_changes = {};
+
+    			if (dirty & /*$$scope*/ 2) {
+    				banner1_changes.$$scope = { dirty, ctx };
+    			}
+
+    			banner1.$set(banner1_changes);
+    			const banner2_changes = {};
+
+    			if (dirty & /*$$scope*/ 2) {
+    				banner2_changes.$$scope = { dirty, ctx };
+    			}
+
+    			banner2.$set(banner2_changes);
     			const area_changes = {};
 
     			if (dirty & /*$$scope*/ 2) {
@@ -30721,13 +30896,6 @@ var app = (function () {
     			}
 
     			area.$set(area_changes);
-    			const banner_changes = {};
-
-    			if (dirty & /*$$scope*/ 2) {
-    				banner_changes.$$scope = { dirty, ctx };
-    			}
-
-    			banner.$set(banner_changes);
     			const contentarea_changes = {};
 
     			if (dirty & /*$$scope*/ 2) {
@@ -30738,30 +30906,34 @@ var app = (function () {
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(dvizcinco.$$.fragment, local);
+    			transition_in(banner0.$$.fragment, local);
+    			transition_in(banner1.$$.fragment, local);
+    			transition_in(banner2.$$.fragment, local);
     			transition_in(mainfeatures.$$.fragment, local);
     			transition_in(area.$$.fragment, local);
-    			transition_in(banner.$$.fragment, local);
     			transition_in(contentarea.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(dvizcinco.$$.fragment, local);
+    			transition_out(banner0.$$.fragment, local);
+    			transition_out(banner1.$$.fragment, local);
+    			transition_out(banner2.$$.fragment, local);
     			transition_out(mainfeatures.$$.fragment, local);
     			transition_out(area.$$.fragment, local);
-    			transition_out(banner.$$.fragment, local);
     			transition_out(contentarea.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			destroy_component(dvizcinco, detaching);
+    			destroy_component(banner0, detaching);
     			if (detaching) detach_dev(t0);
-    			destroy_component(mainfeatures, detaching);
+    			destroy_component(banner1, detaching);
     			if (detaching) detach_dev(t1);
-    			destroy_component(area, detaching);
+    			destroy_component(banner2, detaching);
     			if (detaching) detach_dev(t2);
-    			destroy_component(banner, detaching);
+    			destroy_component(mainfeatures, detaching);
     			if (detaching) detach_dev(t3);
+    			destroy_component(area, detaching);
+    			if (detaching) detach_dev(t4);
     			destroy_component(contentarea, detaching);
     		}
     	};
@@ -30770,7 +30942,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$5.name,
     		type: "slot",
-    		source: "(700:0) <Content>",
+    		source: "(698:0) <Content>",
     		ctx
     	});
 
@@ -30778,19 +30950,9 @@ var app = (function () {
     }
 
     function create_fragment$D(ctx) {
-    	let t0;
-    	let pagetitle;
-    	let t1;
+    	let t;
     	let content;
     	let current;
-
-    	pagetitle = new PageTitle({
-    			props: {
-    				pageTitle: "TODH lab.",
-    				pageSubTitle: "Digital data visualizations and 3D printing from an archetypal worldview."
-    			},
-    			$$inline: true
-    		});
 
     	content = new Content({
     			props: {
@@ -30802,9 +30964,7 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			t0 = space();
-    			create_component(pagetitle.$$.fragment);
-    			t1 = space();
+    			t = space();
     			create_component(content.$$.fragment);
     			document.title = "TODH";
     		},
@@ -30812,9 +30972,7 @@ var app = (function () {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, t0, anchor);
-    			mount_component(pagetitle, target, anchor);
-    			insert_dev(target, t1, anchor);
+    			insert_dev(target, t, anchor);
     			mount_component(content, target, anchor);
     			current = true;
     		},
@@ -30829,19 +30987,15 @@ var app = (function () {
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(pagetitle.$$.fragment, local);
     			transition_in(content.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(pagetitle.$$.fragment, local);
     			transition_out(content.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t0);
-    			destroy_component(pagetitle, detaching);
-    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(t);
     			destroy_component(content, detaching);
     		}
     	};
@@ -37030,7 +37184,7 @@ var app = (function () {
     }
 
     // (1045:16) <SwipeItem>
-    function create_default_slot_6$1(ctx) {
+    function create_default_slot_6$2(ctx) {
     	let img;
     	let img_src_value;
 
@@ -37052,7 +37206,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_6$1.name,
+    		id: create_default_slot_6$2.name,
     		type: "slot",
     		source: "(1045:16) <SwipeItem>",
     		ctx
@@ -37062,7 +37216,7 @@ var app = (function () {
     }
 
     // (1035:12) <Swipe {showIndicators} {autoplay} {delay} {transitionDuration} {defaultIndex}>
-    function create_default_slot_5$1(ctx) {
+    function create_default_slot_5$2(ctx) {
     	let swipeitem0;
     	let t0;
     	let swipeitem1;
@@ -37098,7 +37252,7 @@ var app = (function () {
 
     	swipeitem3 = new SwipeItem({
     			props: {
-    				$$slots: { default: [create_default_slot_6$1] },
+    				$$slots: { default: [create_default_slot_6$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -37182,7 +37336,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_5$1.name,
+    		id: create_default_slot_5$2.name,
     		type: "slot",
     		source: "(1035:12) <Swipe {showIndicators} {autoplay} {delay} {transitionDuration} {defaultIndex}>",
     		ctx
@@ -37226,7 +37380,7 @@ var app = (function () {
     				delay: /*delay*/ ctx[2],
     				transitionDuration: /*transitionDuration*/ ctx[4],
     				defaultIndex: /*defaultIndex*/ ctx[5],
-    				$$slots: { default: [create_default_slot_5$1] },
+    				$$slots: { default: [create_default_slot_5$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true

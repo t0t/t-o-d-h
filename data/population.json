@@ -24,6 +24,10 @@
               "population": "1"
             },
             {
+              "name": "norte",
+              "population": "1"
+            },
+            {
               "name": "fuego",
               "children": [
                 {

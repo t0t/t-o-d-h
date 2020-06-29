@@ -88,7 +88,7 @@ body {
 #chart5 {
   display: flex;
   justify-content: center;
-  margin-top: -20px;
+  /* margin-top: -20px; */
   /* margin-left: auto;
   margin-right: auto; */
 }
@@ -107,5 +107,6 @@ circle {
 text {
   font: 8px sans-serif;
   text-anchor: middle;
+  text-transform: uppercase;
   cursor: pointer; cursor: hand
 }
