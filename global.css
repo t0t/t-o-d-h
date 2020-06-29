@@ -82,3 +82,30 @@ html {
 body {
   background-color: #0b2830;
 }
+
+
+/* Data Viz */
+#chart5 {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+circle {
+  fill: white;
+  fill-opacity: 1;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.leaf circle {
+  fill: none;
+  fill-opacity: 1;
+}
+
+text {
+  font: 8px sans-serif;
+  text-anchor: middle;
+  cursor: pointer; cursor: hand
+}

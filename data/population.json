@@ -1,0 +1,178 @@
+﻿{
+  "name": "Nada",
+  "children": [
+    {
+      "name": "potencial",
+      "population": 20
+    },
+    {
+      "name": "vacío",
+      "population": 20
+    },
+    {
+      "name": "Todo",
+      "children": [
+        {
+          "name": "pensar",
+          "children": [
+            {
+              "name": "1",
+              "population": "1"
+            },
+            {
+              "name": "insight",
+              "population": "1"
+            },
+            {
+              "name": "fuego",
+              "children": [
+                {
+                  "name": "Rojo",
+                  "population": "1"
+                },
+                {
+                  "name": "destrucción",
+                  "population": "1"
+                }
+              ]
+            },
+            {
+              "name": "discernimiento",
+              "children": [
+                {
+                  "name": "ser",
+                  "population": "1"
+                },
+                {
+                  "name": "voluntad",
+                  "population": "1"
+                },
+                {
+                  "name": "intuición",
+                  "population": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sentir",
+          "children": [
+            {
+              "name": "2",
+              "population": "1"
+            },
+            {
+              "name": "denso",
+              "population": "1"
+            },
+            {
+              "name": "Dualidad",
+              "children": [
+                {
+                  "name": "identidad",
+                  "population": "1"
+                },
+                {
+                  "name": "empatía",
+                  "population": "1"
+                },
+                {
+                  "name": "agua",
+                  "children": [
+                    {
+                      "name": "memoria",
+                      "population": "1"
+                    },
+                    {
+                      "name": "plenitud",
+                      "population": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hacer",
+          "children": [
+            {
+              "name": "4",
+              "population": "1"
+            },
+            {
+              "name": "realidad",
+              "population": "1"
+            },
+            {
+              "name": "hechos",
+              "children": [
+                {
+                  "name": "tierra",
+                  "population": "1"
+                },
+                {
+                  "name": "acción",
+                  "population": "1"
+                },
+                {
+                  "name": "estructura",
+                  "population": "1"
+                },
+                {
+                  "name": "forma",
+                  "population": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "decir",
+          "children": [
+            {
+              "name": "3",
+              "population": "1"
+            },
+            {
+              "name": "el otro",
+              "population": "1"
+            },
+            {
+              "name": "conexión",
+              "children": [
+                {
+                  "name": "lenguaje",
+                  "population": "1"
+                },
+                {
+                  "name": "vínculo",
+                  "population": "1"
+                },
+                {
+                  "name": "simbolo",
+                  "children": [
+                    {
+                      "name": "triángulo",
+                      "population": "1"
+                    },
+                    {
+                      "name": "tríada",
+                      "population": "1"
+                    },
+                    {
+                      "name": "trans",
+                      "population": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+        
+      ]
+    }
+  ]
+}
