@@ -30316,7 +30316,7 @@ var app = (function () {
     			svg = svg_element("svg");
     			attr_dev(svg, "id", "graph");
     			attr_dev(svg, "class", "svelte-1ub58cs");
-    			add_location(svg, file$A, 714, 0, 15109);
+    			add_location(svg, file$A, 715, 0, 15197);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -30372,7 +30372,7 @@ var app = (function () {
     		const svgWidth = 360;
     		const svgHeight = 360;
     		const radius = Math.min(svgWidth, svgHeight) / 2;
-    		const svg = select("#graph").attr("width", svgWidth).attr("height", svgHeight).attr("class", "svg-container");
+    		const svg = select("#graph").attr("viewBox", `0 0 ${svgWidth} ${svgHeight}`).attr("preserveAspectRatio", "none").attr("style", "width:100%; height:auto;").attr("class", "svg-container");
     		const g = svg.append("g").attr("transform", `translate(${radius},${radius})`);
     		const pie$1 = pie().value(d => d.percentage);
 
@@ -30422,7 +30422,7 @@ var app = (function () {
     		c: function create() {
     			svg = svg_element("svg");
     			attr_dev(svg, "id", "graph2");
-    			add_location(svg, file$B, 97, 0, 3374);
+    			add_location(svg, file$B, 97, 0, 3365);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -30483,7 +30483,7 @@ var app = (function () {
     	onMount(() => {
     		const svgWidth = 500;
     		const svgHeight = 500;
-    		const svg = select("#graph2").attr("version", "1.1").attr("viewBox", `0 0 ${svgWidth} ${svgHeight}`).attr("preserveAspectRatio", "xMinYMin meet").attr("style", "width:100%; height:auto;").append("g").attr("transform", "translate(50,50)");
+    		const svg = select("#graph2").attr("version", "1.1").attr("viewBox", `0 0 ${svgWidth} ${svgHeight}`).attr("preserveAspectRatio", "none").attr("style", "width:100%; height:auto;").append("g").attr("transform", "translate(50,50)");
 
     		const dataStructure = stratify().id(function (d) {
     			return d.child;
