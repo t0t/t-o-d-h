@@ -30524,7 +30524,7 @@ var app = (function () {
     const file$C = "src/pages/index.svelte";
 
     // (658:2) <Banner variante={0}>
-    function create_default_slot_3$1(ctx) {
+    function create_default_slot_4$1(ctx) {
     	let figure;
     	let img;
     	let img_src_value;
@@ -30545,13 +30545,13 @@ var app = (function () {
     			if (img.src !== (img_src_value = "img/esquema-sintesis.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Esquema tot");
     			attr_dev(img, "class", "svelte-lxlbai");
-    			add_location(img, file$C, 659, 6, 14007);
+    			add_location(img, file$C, 659, 6, 13785);
     			attr_dev(figure, "class", "MainFeature svelte-lxlbai");
-    			add_location(figure, file$C, 658, 4, 13972);
+    			add_location(figure, file$C, 658, 4, 13750);
     			attr_dev(strong, "class", "svelte-lxlbai");
-    			add_location(strong, file$C, 661, 25, 14101);
+    			add_location(strong, file$C, 661, 25, 13879);
     			attr_dev(h1, "class", "text-big svelte-lxlbai");
-    			add_location(h1, file$C, 661, 4, 14080);
+    			add_location(h1, file$C, 661, 4, 13858);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, figure, anchor);
@@ -30570,7 +30570,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_3$1.name,
+    		id: create_default_slot_4$1.name,
     		type: "slot",
     		source: "(658:2) <Banner variante={0}>",
     		ctx
@@ -30579,7 +30579,94 @@ var app = (function () {
     	return block;
     }
 
-    // (665:2) <Banner variante={1}>
+    // (665:2) <Banner variante={2}>
+    function create_default_slot_3$1(ctx) {
+    	let iframe0;
+    	let iframe0_src_value;
+    	let t0;
+    	let iframe1;
+    	let iframe1_src_value;
+    	let t1;
+    	let iframe2;
+    	let iframe2_src_value;
+    	let t2;
+    	let iframe3;
+    	let iframe3_src_value;
+
+    	const block = {
+    		c: function create() {
+    			iframe0 = element("iframe");
+    			t0 = space();
+    			iframe1 = element("iframe");
+    			t1 = space();
+    			iframe2 = element("iframe");
+    			t2 = space();
+    			iframe3 = element("iframe");
+    			attr_dev(iframe0, "width", "100%");
+    			attr_dev(iframe0, "height", "315");
+    			if (iframe0.src !== (iframe0_src_value = "https://www.youtube.com/embed/KAbnV6e8exs")) attr_dev(iframe0, "src", iframe0_src_value);
+    			attr_dev(iframe0, "frameborder", "0");
+    			attr_dev(iframe0, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+    			iframe0.allowFullscreen = true;
+    			attr_dev(iframe0, "class", "svelte-lxlbai");
+    			add_location(iframe0, file$C, 665, 4, 13997);
+    			attr_dev(iframe1, "width", "100%");
+    			attr_dev(iframe1, "height", "315");
+    			if (iframe1.src !== (iframe1_src_value = "https://www.youtube.com/embed/HFUOY7i4W8k")) attr_dev(iframe1, "src", iframe1_src_value);
+    			attr_dev(iframe1, "frameborder", "0");
+    			attr_dev(iframe1, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+    			iframe1.allowFullscreen = true;
+    			attr_dev(iframe1, "class", "svelte-lxlbai");
+    			add_location(iframe1, file$C, 666, 4, 14222);
+    			attr_dev(iframe2, "width", "100%");
+    			attr_dev(iframe2, "height", "315");
+    			if (iframe2.src !== (iframe2_src_value = "https://www.youtube.com/embed/SRiftbEqnKs")) attr_dev(iframe2, "src", iframe2_src_value);
+    			attr_dev(iframe2, "frameborder", "0");
+    			attr_dev(iframe2, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+    			iframe2.allowFullscreen = true;
+    			attr_dev(iframe2, "class", "svelte-lxlbai");
+    			add_location(iframe2, file$C, 667, 4, 14447);
+    			attr_dev(iframe3, "width", "100%");
+    			attr_dev(iframe3, "height", "315");
+    			if (iframe3.src !== (iframe3_src_value = "https://www.youtube.com/embed/Kqc9iJTMWHE")) attr_dev(iframe3, "src", iframe3_src_value);
+    			attr_dev(iframe3, "frameborder", "0");
+    			attr_dev(iframe3, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+    			iframe3.allowFullscreen = true;
+    			attr_dev(iframe3, "class", "svelte-lxlbai");
+    			add_location(iframe3, file$C, 668, 4, 14672);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, iframe0, anchor);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, iframe1, anchor);
+    			insert_dev(target, t1, anchor);
+    			insert_dev(target, iframe2, anchor);
+    			insert_dev(target, t2, anchor);
+    			insert_dev(target, iframe3, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(iframe0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(iframe1);
+    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(iframe2);
+    			if (detaching) detach_dev(t2);
+    			if (detaching) detach_dev(iframe3);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_3$1.name,
+    		type: "slot",
+    		source: "(665:2) <Banner variante={2}>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (674:2) <Banner variante={1}>
     function create_default_slot_2$2(ctx) {
     	let h2;
     	let t0;
@@ -30600,9 +30687,9 @@ var app = (function () {
     			t3 = space();
     			create_component(dvizcuatro.$$.fragment);
     			attr_dev(strong, "class", "svelte-lxlbai");
-    			add_location(strong, file$C, 665, 18, 14237);
+    			add_location(strong, file$C, 674, 18, 14957);
     			attr_dev(h2, "class", "svelte-lxlbai");
-    			add_location(h2, file$C, 665, 4, 14223);
+    			add_location(h2, file$C, 674, 4, 14943);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -30633,14 +30720,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2$2.name,
     		type: "slot",
-    		source: "(665:2) <Banner variante={1}>",
+    		source: "(674:2) <Banner variante={1}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (669:2) <Banner variante={2}>
+    // (678:2) <Banner variante={2}>
     function create_default_slot_1$3(ctx) {
     	let dviztres;
     	let t0;
@@ -30757,11 +30844,11 @@ var app = (function () {
     			t13 = space();
     			create_component(tag10.$$.fragment);
     			attr_dev(strong, "class", "svelte-lxlbai");
-    			add_location(strong, file$C, 671, 10, 14528);
+    			add_location(strong, file$C, 680, 10, 15248);
     			attr_dev(h2, "class", "svelte-lxlbai");
-    			add_location(h2, file$C, 671, 6, 14524);
+    			add_location(h2, file$C, 680, 6, 15244);
     			attr_dev(div, "class", "svelte-lxlbai");
-    			add_location(div, file$C, 670, 4, 14512);
+    			add_location(div, file$C, 679, 4, 15232);
     		},
     		m: function mount(target, anchor) {
     			mount_component(dviztres, target, anchor);
@@ -30848,7 +30935,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$3.name,
     		type: "slot",
-    		source: "(669:2) <Banner variante={2}>",
+    		source: "(678:2) <Banner variante={2}>",
     		ctx
     	});
 
@@ -30857,14 +30944,13 @@ var app = (function () {
 
     // (656:0) <Content>
     function create_default_slot$5(ctx) {
-    	let iframe;
-    	let iframe_src_value;
-    	let t0;
     	let banner0;
-    	let t1;
+    	let t0;
     	let banner1;
-    	let t2;
+    	let t1;
     	let banner2;
+    	let t2;
+    	let banner3;
     	let t3;
     	let mainfeatures;
     	let current;
@@ -30872,13 +30958,22 @@ var app = (function () {
     	banner0 = new Banner({
     			props: {
     				variante: 0,
-    				$$slots: { default: [create_default_slot_3$1] },
+    				$$slots: { default: [create_default_slot_4$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
     		});
 
     	banner1 = new Banner({
+    			props: {
+    				variante: 2,
+    				$$slots: { default: [create_default_slot_3$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	banner2 = new Banner({
     			props: {
     				variante: 1,
     				$$slots: { default: [create_default_slot_2$2] },
@@ -30887,7 +30982,7 @@ var app = (function () {
     			$$inline: true
     		});
 
-    	banner2 = new Banner({
+    	banner3 = new Banner({
     			props: {
     				variante: 2,
     				$$slots: { default: [create_default_slot_1$3] },
@@ -30900,32 +30995,24 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			iframe = element("iframe");
-    			t0 = space();
     			create_component(banner0.$$.fragment);
-    			t1 = space();
+    			t0 = space();
     			create_component(banner1.$$.fragment);
-    			t2 = space();
+    			t1 = space();
     			create_component(banner2.$$.fragment);
+    			t2 = space();
+    			create_component(banner3.$$.fragment);
     			t3 = space();
     			create_component(mainfeatures.$$.fragment);
-    			attr_dev(iframe, "width", "100%");
-    			attr_dev(iframe, "height", "500");
-    			if (iframe.src !== (iframe_src_value = "https://www.youtube.com/embed/HFUOY7i4W8k")) attr_dev(iframe, "src", iframe_src_value);
-    			attr_dev(iframe, "frameborder", "0");
-    			attr_dev(iframe, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
-    			iframe.allowFullscreen = true;
-    			attr_dev(iframe, "class", "svelte-lxlbai");
-    			add_location(iframe, file$C, 656, 2, 13723);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, iframe, anchor);
-    			insert_dev(target, t0, anchor);
     			mount_component(banner0, target, anchor);
-    			insert_dev(target, t1, anchor);
+    			insert_dev(target, t0, anchor);
     			mount_component(banner1, target, anchor);
-    			insert_dev(target, t2, anchor);
+    			insert_dev(target, t1, anchor);
     			mount_component(banner2, target, anchor);
+    			insert_dev(target, t2, anchor);
+    			mount_component(banner3, target, anchor);
     			insert_dev(target, t3, anchor);
     			mount_component(mainfeatures, target, anchor);
     			current = true;
@@ -30952,12 +31039,20 @@ var app = (function () {
     			}
 
     			banner2.$set(banner2_changes);
+    			const banner3_changes = {};
+
+    			if (dirty & /*$$scope*/ 2) {
+    				banner3_changes.$$scope = { dirty, ctx };
+    			}
+
+    			banner3.$set(banner3_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
     			transition_in(banner0.$$.fragment, local);
     			transition_in(banner1.$$.fragment, local);
     			transition_in(banner2.$$.fragment, local);
+    			transition_in(banner3.$$.fragment, local);
     			transition_in(mainfeatures.$$.fragment, local);
     			current = true;
     		},
@@ -30965,17 +31060,18 @@ var app = (function () {
     			transition_out(banner0.$$.fragment, local);
     			transition_out(banner1.$$.fragment, local);
     			transition_out(banner2.$$.fragment, local);
+    			transition_out(banner3.$$.fragment, local);
     			transition_out(mainfeatures.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(iframe);
-    			if (detaching) detach_dev(t0);
     			destroy_component(banner0, detaching);
-    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(t0);
     			destroy_component(banner1, detaching);
-    			if (detaching) detach_dev(t2);
+    			if (detaching) detach_dev(t1);
     			destroy_component(banner2, detaching);
+    			if (detaching) detach_dev(t2);
+    			destroy_component(banner3, detaching);
     			if (detaching) detach_dev(t3);
     			destroy_component(mainfeatures, detaching);
     		}
@@ -35183,7 +35279,7 @@ var app = (function () {
     }
 
     // (828:12) <Figure>
-    function create_default_slot_4$1(ctx) {
+    function create_default_slot_4$2(ctx) {
     	let img;
     	let img_src_value;
 
@@ -35205,7 +35301,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_4$1.name,
+    		id: create_default_slot_4$2.name,
     		type: "slot",
     		source: "(828:12) <Figure>",
     		ctx
@@ -35223,7 +35319,7 @@ var app = (function () {
 
     	figure = new Figure({
     			props: {
-    				$$slots: { default: [create_default_slot_4$1] },
+    				$$slots: { default: [create_default_slot_4$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
