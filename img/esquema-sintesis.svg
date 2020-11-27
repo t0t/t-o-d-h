@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 5906 5906" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-192149,-57663.7)">
+        <g id="Logo-v13" transform="matrix(0.25541,0,0,0.25541,147449,44818.9)">
+            <rect x="175012" y="50291" width="23121.7" height="23121.7" fill="none"/>
+            <clipPath id="_clip1">
+                <rect x="175012" y="50291" width="23121.7" height="23121.7"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(20.9036,0,0,20.9036,-1.95471e+06,-229518)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:0.78px;"/>
+                </g>
+                <g transform="matrix(10.4518,0,0,10.4518,-889850,-83833.2)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:1.56px;stroke-dasharray:34.34,7.8,0,0;"/>
+                </g>
+                <g transform="matrix(10.4518,0,0,10.4518,-878289,-83833.2)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:1.56px;"/>
+                </g>
+                <g transform="matrix(10.4518,0,0,10.4518,-884070,-83833.2)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:3.12px;"/>
+                </g>
+                <g transform="matrix(1.33468,0,0,1.33468,239.024,41677.6)">
+                    <text x="134122px" y="15535.4px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:1200px;fill:white;">0</text>
+                </g>
+                <g transform="matrix(1.33468,0,0,1.33468,7359.19,41677.6)">
+                    <text x="134122px" y="15535.4px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:1200px;fill:white;">1</text>
+                </g>
+                <g transform="matrix(1.33468,0,0,1.33468,12753.6,41677.6)">
+                    <text x="134152px" y="15535.4px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:1200px;fill:white;">4</text>
+                </g>
+                <g transform="matrix(1.33468,0,0,1.33468,9977.82,35327)">
+                    <text x="134122px" y="15535.4px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:1200px;fill:white;">3</text>
+                </g>
+                <g transform="matrix(1.33468,0,0,1.33468,10010.8,48028.2)">
+                    <text x="134122px" y="15535.4px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:1200px;fill:white;">2</text>
+                </g>
+                <g transform="matrix(-9.13323,1.82306,-1.82306,-9.13323,245626,48558.7)">
+                    <path d="M6087.16,303.043L6299.02,-745.029" style="fill:none;stroke:rgb(252,51,51);stroke-width:4.38px;stroke-linecap:square;stroke-linejoin:miter;"/>
+                </g>
+                <g transform="matrix(-9.13323,1.82306,-1.82306,-9.13323,239196,48558.7)">
+                    <path d="M5820.93,-305.508L6426.45,-180.316" style="fill:none;stroke:rgb(238,255,0);stroke-width:4.38px;stroke-linecap:square;stroke-linejoin:miter;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
