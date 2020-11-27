@@ -79,10 +79,6 @@ select {
 html {
   font-size: 17px;
 }
-body {
-  background-color: #0b2830;
-}
-
 
 /* Data Viz */
 #chart5 {

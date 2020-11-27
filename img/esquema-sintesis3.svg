@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 12922 6571" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-192149,-56725.1)">
+        <g id="Logo-v13" transform="matrix(0.558868,0,0,0.28416,94340.7,42434.4)">
+            <rect x="175012" y="50291" width="23121.7" height="23121.7" fill="none"/>
+            <g transform="matrix(0.820878,0,0,0.737824,33193.1,16216.1)">
+                <g transform="matrix(9.55322,0,0,20.9036,-798301,-229518)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:0.95px;"/>
+                </g>
+                <g transform="matrix(4.77661,0,0,10.4518,-311644,-83833.2)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:1.9px;stroke-dasharray:41.83,9.51,0,0;"/>
+                </g>
+                <g transform="matrix(4.77661,0,0,10.4518,-306361,-83833.2)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:1.9px;"/>
+                </g>
+                <g transform="matrix(4.77661,0,0,10.4518,-309003,-83833.2)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:3.8px;"/>
+                </g>
+                <g transform="matrix(0.609965,0,0,1.33468,95138.4,41677.6)">
+                    <text x="134122px" y="15535.4px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:1200px;fill:white;">0</text>
+                </g>
+                <g transform="matrix(0.609965,0,0,1.33468,98392.4,41677.6)">
+                    <text x="134122px" y="15535.4px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:1200px;fill:white;">1</text>
+                </g>
+                <g transform="matrix(0.609965,0,0,1.33468,100858,41677.6)">
+                    <text x="134152px" y="15535.4px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:1200px;fill:white;">4</text>
+                </g>
+                <g transform="matrix(0.609965,0,0,1.33468,99589.2,35327)">
+                    <text x="134122px" y="15535.4px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:1200px;fill:white;">3</text>
+                </g>
+                <g transform="matrix(0.609965,0,0,1.33468,99604.3,48028.2)">
+                    <text x="134122px" y="15535.4px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:1200px;fill:white;">2</text>
+                </g>
+                <g transform="matrix(-4.17401,1.82306,-0.833165,-9.13323,207284,48558.7)">
+                    <path d="M6087.16,303.043L6299.02,-745.029" style="fill:none;stroke:rgb(252,51,51);stroke-width:5.33px;stroke-linecap:square;stroke-linejoin:miter;"/>
+                </g>
+                <g transform="matrix(-4.17401,1.82306,-0.833165,-9.13323,204345,48558.7)">
+                    <path d="M5820.93,-305.508L6426.45,-180.316" style="fill:none;stroke:rgb(238,255,0);stroke-width:5.33px;stroke-linecap:square;stroke-linejoin:miter;"/>
+                </g>
+            </g>
+            <g transform="matrix(0.820853,0,0,0.737802,43894.9,16217.7)">
+                <g transform="matrix(2.17985,0,0,4.76976,-94449.7,-36183.3)">
+                    <text x="124330px" y="21394.6px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:125px;fill:white;">N<tspan x="124438px 124518px 124609px 124689px 124728px 124776px 124815px 124910px 124994px 125049px 125131px 125222px 125298px 125338px 125418px 125458px 125497px " y="21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px ">ada / Potencial /</tspan></text>
+                    <text x="124330px" y="21661.3px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:125px;fill:white;">E<tspan x="124419px 124486px 124568px 124659px 124736px 124776px " y="21661.3px 21661.3px 21661.3px 21661.3px 21661.3px 21661.3px ">sencia</tspan></text>
+                </g>
+                <g transform="matrix(2.17985,0,0,4.76976,-87167.6,-41741.1)">
+                    <text x="124409px" y="21394.6px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:125px;fill:white;">C<tspan x="124502px 124587px 124677px 124725px 124810px 124865px 125004px " y="21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px ">onforma</tspan></text>
+                </g>
+                <g transform="matrix(2.17985,0,0,4.76976,-93290.1,-47106.6)">
+                    <text x="124553px" y="21394.6px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:125px;fill:white;">L<tspan x="124632px 124717px 124809px 124893px 124961px 125000px 125048px 125087px 125183px 125265px 125305px 125385px 125462px 125502px 125586px 125677px 125716px 125764px 125803px 125899px 125990px 126070px 126110px 126195px 126287px 126326px 126406px 126445px " y="21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px ">ogos / Relación / Analogía /</tspan></text>
+                    <text x="125242px" y="21661.3px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:125px;fill:white;">S<tspan x="125325px 125365px 125504px 125595px 125680px 125720px " y="21661.3px 21661.3px 21661.3px 21661.3px 21661.3px 21661.3px ">ímbolo</tspan></text>
+                </g>
+                <g transform="matrix(2.17985,0,0,4.76976,-90386,-41746.2)">
+                    <text x="124330px" y="21394.6px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:125px;fill:white;">P<tspan x="124424px 124504px 124562px 124617px 124699px 124738px 124786px 124825px 124908px 124990px 125080px 125160px 125216px " y="21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px ">arte / Separa</tspan></text>
+                </g>
+                <g transform="matrix(1.28847e-16,-4.84692,2.98871,4.2154e-16,-16039.9,564440)">
+                    <path d="M103396,66109.6L103396,67460.1" style="fill:none;stroke:white;stroke-width:113.94px;stroke-linejoin:miter;"/>
+                </g>
+                <g transform="matrix(1.28847e-16,-4.84692,4.83562,6.82035e-16,-144669,563004)">
+                    <path d="M103396,66109.6L103396,67460.1" style="fill:none;stroke:rgb(238,255,0);stroke-width:79.69px;stroke-linejoin:miter;"/>
+                </g>
+                <g transform="matrix(71.0952,0,0,126.473,-3.83831e+06,-223170)">
+                    <g transform="matrix(1.87133e-18,-0.0383238,0.0160576,1.37626e-18,55515.3,6216.16)">
+                        <path d="M103396,66109.6L103396,67460.1" style="fill:none;stroke:rgb(255,24,0);stroke-opacity:0.76;stroke-width:170.1px;stroke-linejoin:miter;"/>
+                    </g>
+                    <g transform="matrix(1.87133e-18,-0.0383238,0.0259806,2.22673e-18,54824.2,6216.16)">
+                        <path d="M103396,66109.6L103396,67460.1" style="fill:none;stroke:rgb(255,24,0);stroke-width:146.97px;stroke-linejoin:miter;"/>
+                    </g>
+                </g>
+                <g transform="matrix(10.1556,-1.39912e-30,-7.44911e-31,22.2218,50407.1,24867.4)">
+                    <text x="13099.4px" y="1840.22px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:52.857px;fill:white;">1</text>
+                </g>
+                <g transform="matrix(10.1556,-1.39912e-30,-7.44911e-31,22.2218,45062.3,23871.3)">
+                    <text x="13099.4px" y="1840.22px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:52.857px;fill:white;">0</text>
+                </g>
+                <g transform="matrix(10.1556,-1.39912e-30,-7.44911e-31,22.2218,51566.6,18350)">
+                    <text x="13028.6px" y="1840.22px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:52.857px;fill:white;">1<tspan x="13050.4px 13082.5px 13104.2px 13136.4px 13158.1px 13190.2px " y="1840.22px 1840.22px 1840.22px 1840.22px 1840.22px 1840.22px ">+1+1+1</tspan></text>
+                </g>
+                <g transform="matrix(10.1556,-1.39912e-30,-7.44911e-31,22.2218,48144.2,18364.1)">
+                    <text x="13099.4px" y="1840.22px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:52.857px;fill:white;">1<tspan x="13121.2px 13153.3px " y="1840.22px 1840.22px ">+1</tspan></text>
+                </g>
+                <g transform="matrix(10.1556,-1.39912e-30,-7.44911e-31,22.2218,46651.7,12879.7)">
+                    <text x="13099.4px" y="1840.22px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:52.857px;fill:white;">1<tspan x="13121.2px 13153.3px 13175px 13207.2px " y="1840.22px 1840.22px 1840.22px 1840.22px ">+1+1</tspan></text>
+                </g>
+                <g transform="matrix(9.55322,0,0,20.9036,-798301,-229518)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:0.86px;"/>
+                </g>
+                <g transform="matrix(3.71714,0,0,24.7552,-321033,-1.78907e+06)">
+                    <path d="M134290,74727.5L134290,74564.4L135739,74564.4L135739,74727.5" style="fill:none;stroke:white;stroke-width:0.97px;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:3.88,4.85,0,0;"/>
+                </g>
+                <g transform="matrix(1.78933,0,0,5.89124,-59964.6,-382497)">
+                    <path d="M134290,74401.3L134290,74564.4" style="fill:none;stroke:white;stroke-width:3.58px;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:14.3,17.88,0,0;"/>
+                </g>
+                <g transform="matrix(2.17985,0,0,4.76976,-88411.5,-35303)">
+                    <text x="124486px" y="21394.6px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:125px;fill:white;">U<tspan x="124591px 124682px 124722px 124813px 124893px 124984px 125023px " y="21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px 21394.6px ">nidad /</tspan></text>
+                    <text x="124389px" y="21594.6px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:125px;fill:white;">E<tspan x="124477px 124550px 124590px 124657px 124712px 124793px 124885px 124961px 125001px 125081px 125120px " y="21594.6px 21594.6px 21594.6px 21594.6px 21594.6px 21594.6px 21594.6px 21594.6px 21594.6px 21594.6px 21594.6px ">xistencia /</tspan></text>
+                    <text x="124668px" y="21794.6px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:125px;fill:white;">S<tspan x="124751px 124833px " y="21794.6px 21794.6px ">er</tspan></text>
+                </g>
+                <g transform="matrix(-0.889408,-2.38332e-16,3.45955e-16,-6.1813,297716,523185)">
+                    <path d="M134290,74401.3L134290,74564.4" style="fill:none;stroke:white;stroke-width:3.9px;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:15.61,19.52,0,0;"/>
+                </g>
+                <g transform="matrix(-0.485456,-1.30086e-16,3.45955e-16,-6.1813,248753,524470)">
+                    <path d="M134290,74401.3L134290,74564.4" style="fill:none;stroke:white;stroke-width:4.03px;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:16.13,20.17,0,0;"/>
+                </g>
+                <g transform="matrix(-0.485456,-1.30086e-16,3.45955e-16,-6.1813,249945,521573)">
+                    <path d="M134290,74401.3L134290,74564.4" style="fill:none;stroke:white;stroke-width:4.03px;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:16.13,20.17,0,0;"/>
+                </g>
+                <g transform="matrix(-0.485456,-1.30086e-16,1.08898e-15,-19.4573,246729,1.51149e+06)">
+                    <path d="M134290,74401.3L134290,74564.4" style="fill:none;stroke:white;stroke-width:1.3px;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:5.19,6.49,0,0;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
