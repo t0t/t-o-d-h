@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 4320 4854" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-144317,-18800.9)">
+        <g transform="matrix(39.7328,0,0,32.3025,-2.14618e+06,0)">
+            <g transform="matrix(0.169398,0,0,0.169398,48030.4,552.986)">
+                <g transform="matrix(0.543674,-4.21044e-32,-3.98782e-32,0.668732,49956.1,-609.631)">
+                    <text x="13099.4px" y="1840.22px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:128.779px;fill:white;">1</text>
+                </g>
+                <g transform="matrix(0.543674,-4.21044e-32,-3.98782e-32,0.668732,49648,-610.497)">
+                    <text x="13099.4px" y="1840.22px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:128.779px;fill:white;">0</text>
+                </g>
+                <g transform="matrix(0.543674,-4.21044e-32,-3.98782e-32,0.668732,50244.9,-603.647)">
+                    <text x="13099.4px" y="1840.22px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:128.779px;fill:white;">4</text>
+                </g>
+                <g transform="matrix(0.543674,-4.21044e-32,-3.98782e-32,0.668732,50101.2,-779.383)">
+                    <text x="13099.4px" y="1840.22px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:128.779px;fill:white;">3</text>
+                </g>
+                <g transform="matrix(0.543674,-4.21044e-32,-3.98782e-32,0.668732,50107,-413.681)">
+                    <text x="13099.4px" y="1840.22px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:128.779px;fill:white;">2</text>
+                </g>
+                <g transform="matrix(0.540642,0,0,0.665003,1711.36,-8663.92)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:3.44px;stroke-dasharray:3.44,17.18,0,0;"/>
+                </g>
+                <g transform="matrix(0.270179,0,0,0.332327,29566.2,-4026.82)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:6.87px;stroke-dasharray:6.87,34.37,0,0;"/>
+                </g>
+                <g transform="matrix(0.270179,0,0,0.332327,29268.7,-4038.03)">
+                    <circle cx="102436" cy="13938.8" r="553.055" style="fill:none;stroke:white;stroke-width:6.87px;stroke-dasharray:6.87,34.37,0,0;"/>
+                </g>
+                <g transform="matrix(0.0583446,0,0,0.0717653,49368.9,-8000.11)">
+                    <path d="M132382,113886L132382,126204" style="fill:none;stroke:white;stroke-opacity:0.31;stroke-width:42.44px;stroke-dasharray:169.77,212.21,0,0;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
